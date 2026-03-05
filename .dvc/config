@@ -3,6 +3,3 @@
     remote = localremote
 ['remote "localremote"']
     url = /home/ray/dvcremote
-['remote "gdrive"']
-    url = gdrive://1dwHzrhWpzNyEarKcuH8gHwTCo20Hs9vs
-    gdrive_use_service_account = true
