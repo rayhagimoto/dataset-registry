@@ -1,5 +1,7 @@
 [core]
     autostage = true
-    remote = localremote
+    remote = gdrive
 ['remote "localremote"']
     url = /home/ray/dvcremote
+['remote "gdrive"']
+    url = gdrive://1dwHzrhWpzNyEarKcuH8gHwTCo20Hs9vs
