@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Ray Hagimoto <rayhagimoto@gmail.com>"]
+channels = ["conda-forge"]
+name = "dataset-registry"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+dvc = ">=3.66.1,<4"
+rclone = ">=1.73.1,<2"
+dvc-webdav = ">=3.0.1,<4"

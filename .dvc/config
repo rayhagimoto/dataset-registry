@@ -1,5 +1,9 @@
 [core]
     autostage = true
-    remote = localremote
+    remote = gdrive
 ['remote "localremote"']
     url = /home/ray/dvcremote
+['remote "onedrivewebdav"']
+    url = webdav://localhost:9677
+['remote "gdrive"']
+    url = gdrive://1dwHzrhWpzNyEarKcuH8gHwTCo20Hs9vs
